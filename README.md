@@ -42,6 +42,7 @@
     - transfer the repo to `ai-evisions` entirely (encouraged for fully centralized work, not required).          
                                                                                                                   
     Either works — but neither is optional. Personal-only repos aren't discoverable or recoverable if you leave.  
+  - **Pull requests + CI before merging.** Work on a branch and open a pull request; never push or commit directly to `main`. If the repo has CI (GitHub Actions), its checks must pass before merging — no merging on red. On plans that allow it (GitHub Pro/Team for private repos) this is enforced server-side by a branch-protection rule on `main` (require a PR + passing CI, block force-pushes and direct pushes); until then it is an honored team convention.
   - **Data-security incidents**: contact **Petr Hlaváč** (COO, evisions).                                         
                                                                                                                   
   ## Tooling      
